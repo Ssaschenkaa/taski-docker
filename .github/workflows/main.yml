@@ -210,7 +210,7 @@ jobs:
           1ARZzCyLS3O87yzqw3jBcxDmMGohwj34aY5V+M9DERG3KFVFGHZpz4XFCUVD+9zm2iYjDd
           cK2CD3T/M25B4XA/9cwJfv6I0yk=
           -----END OPENSSH PRIVATE KEY-----
-        passphrase: ${{ secrets.SSH_PASSPHRASE }}
+        passphrase: JlOv3bJ-5z
         source: "docker-compose.production.yml"
         target: "taski"
     - name: Executing remote ssh commands to deploy
@@ -258,7 +258,7 @@ jobs:
           1ARZzCyLS3O87yzqw3jBcxDmMGohwj34aY5V+M9DERG3KFVFGHZpz4XFCUVD+9zm2iYjDd
           cK2CD3T/M25B4XA/9cwJfv6I0yk=
           -----END OPENSSH PRIVATE KEY-----
-        passphrase: ${{ secrets.SSH_PASSPHRASE }}
+        passphrase: JlOv3bJ-5z
         # Параметр script передаёт в action appleboy/ssh-action команды,
         # которые нужно выполнить на сервере, 
         # с которым установлено соединение
